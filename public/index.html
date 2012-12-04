@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Crawler</title>
+	<link rel="stylesheet" href="/assets/style/normalize.css" />
+	<link rel="stylesheet" href="/assets/style/screen.css" />
+</head>
+<body>
+	<div id="container">
+		<form>
+			<input type="text" id="url" />
+			<input type="number" id="depth" min="1" value="2" />
+			<input type="submit" id="btnCrawl" value="Crawl" />
+		</form>
+		<ol id="display" class="nested"></ol>
+	</div>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="assets/js/client.js"></script>
+</body>
+</html>
