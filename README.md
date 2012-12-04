@@ -4,7 +4,7 @@ This is a very simple web crawler (spider) written in JavaScript. It runs on [No
 
 ## Usage
 
-Download `git clone https://github.com/btmills/charlotte.git`.
+Download `git clone https://github.com/btmills/Charlotte.git`.
 
 Install dependencies `npm install`.
 
